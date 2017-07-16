@@ -173,6 +173,7 @@ $(document).ready(function () {
     var ticking = false;
 
     function onScroll() {
+        console.log(lastScrollY)        
         lastScrollY = window.scrollY;
         requestTick();
     }
@@ -210,6 +211,8 @@ $(document).ready(function () {
 
     window.addEventListener('scroll', onScroll, {passive: true});
     window.addEventListener('resize', onResize, false);
+
+    console.log("Hello")
 
     update();
 });

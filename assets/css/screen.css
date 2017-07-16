@@ -574,8 +574,6 @@ The first (most recent) post in the list is styled to be bigger than the others 
     border-radius: 5px;
 }
 
-img {}
-
 @media (max-width: 1170px) {
     .post-full-image {
         margin: 0 -4vw -100px;
@@ -672,6 +670,7 @@ img {}
 .footnotes {
     min-width: 100%;
 }
+
 
 .post-full-content a:hover {
     border-bottom: 1px dotted #F03838;
