@@ -607,7 +607,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     color: #424242;
     font-family: "Open Sans", arial, sans-serif;
     font-size: 18px;
-    line-height: 1.6em;
+    line-height: 1.8;
     background: #fff;
 }
 
@@ -618,7 +618,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 @media (max-width: 800px) {
     .post-full-content {
-        font-size: 1.9rem;
+        /* font-size: 1.9rem; */
     }
 }
 
@@ -797,7 +797,8 @@ Super neat trick courtesy of @JoelDrapper
 }
 
 .post-full-content h1 {
-    font-size: 5rem;
+    /* font-size: 5rem; */
+    font-size: 26px;
 }
 
 .post-full-content h2 {
