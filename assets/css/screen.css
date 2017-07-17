@@ -709,9 +709,12 @@ The first (most recent) post in the list is styled to be bigger than the others 
     max-width: 100%;
 }
 
-.post-full-content p a {
+.post-full-content p a,
+.post-full-content ul li a {
     word-break: break-all;
 }
+
+
 
 /*
 If an image url has #full on the end, give it special wide styles.
@@ -935,6 +938,11 @@ Super neat trick courtesy of @JoelDrapper
 @media (max-width: 500px) {
     .post-full-content {
         padding-top: 16px;
+    }
+
+    .post-full-content ul {
+        padding-right: 0;
+        max-width: 100%;
     }
 }
 
